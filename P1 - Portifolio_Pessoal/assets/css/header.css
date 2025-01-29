@@ -1,3 +1,5 @@
+@import url(base.css);
+
 header{
     display: flex;
     flex-direction: column;
@@ -41,6 +43,16 @@ header nav{
     align-items: center;
     gap: 2rem;
     padding: 2rem;
+}
+
+header nav a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--primary);
+}
+
+header nav.opened{
+    display: flex;
 }
 
 @media (width > 600px){
