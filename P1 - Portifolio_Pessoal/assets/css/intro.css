@@ -1,0 +1,30 @@
+.intro{
+    width: 100%;
+    padding: 5rem 0rem;
+    background-color: var(--foreground);
+    color: var(--primary-foreground);
+}
+
+.intro .box{
+    text-align: center;
+    max-width: 60rem;
+    margin: auto;
+    padding: 2rem;
+}
+
+.intro  .title{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+}
+
+.intro  .sub-title{
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+@media(width > 600px){
+    .intro .title{
+        font-size: 3rem;
+    }
+}
